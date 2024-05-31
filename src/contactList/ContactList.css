@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1342px;
+}
+
+h1{
+    color: #4c00b4;
+}
+
+.image{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.button{
+    display: flex;
+    flex-direction: row;
+    gap: 5px 
+}
+
+.button button{
+    width: 74px;
+    height: 28px;
+    color: white;
+    background-color: #4c00b4;
+    border-radius: 9px;
+    font-size: 12px;
+    cursor: pointer;
+
+}

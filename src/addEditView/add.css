@@ -1,0 +1,111 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/* .header{
+    font-size: 40px;
+    font-weight: 700;
+    align-items: center;
+    color: #4c00b4;;
+} */
+
+.header1{
+    margin: 100px 0 30px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    margin-top: 30px;
+    /* color: #4c00b4;; */
+
+}
+
+.text1{
+    color: #3c009d;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.underline1{
+    width :165px;
+    height: 4px;
+    background: #3c009d;
+    border-radius: 9px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-section{
+    height: 180px;
+    width: 150px;
+}
+
+/* .img-section input{
+    display: none;
+} */
+.img-section img{
+    height: 140px;
+    width: 120px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.text-data-name-emai{
+    display: flex;
+    gap: 154px;
+    margin-bottom: 30px;
+}
+
+.text-data-name-emai input{
+    height: 34px;
+    width: 250px;
+    background: transparent;
+    color: #797979;
+    font-size: 19px;
+    outline: none;
+    border-radius: 7px;
+    background: #eaeaea;
+
+
+}
+
+.phone-address{
+    display: flex;
+    gap: 154px;
+}
+
+.phone-address input{
+    height: 34px;
+    width: 250px;
+    background: transparent;
+    color: #797979;
+    font-size: 19px;
+    outline: none;
+    border-radius: 7px;  
+    background: #eaeaea;
+
+}
+
+.submit-container{
+    display: flex;
+    gap: 30px;
+    margin : 40px auto;
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 185px;
+    height: 47px;
+    color: white;
+    background: #4c00b4;
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight: 500;
+    cursor: pointer;
+}
